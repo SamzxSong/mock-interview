@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/mock-interview/static/css/main.8f65212f.css",
+    "main.js": "/mock-interview/static/js/main.12a4feff.js",
+    "index.html": "/mock-interview/index.html",
+    "main.8f65212f.css.map": "/mock-interview/static/css/main.8f65212f.css.map",
+    "main.12a4feff.js.map": "/mock-interview/static/js/main.12a4feff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8f65212f.css",
+    "static/js/main.12a4feff.js"
+  ]
+}
