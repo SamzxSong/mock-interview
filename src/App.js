@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-    <Router>
+    <Router basename="/mock-interview">
       <Routes>
         <Route path="/" exact element={<HomePage />} />
         <Route
