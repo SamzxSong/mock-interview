@@ -1,0 +1,120 @@
+/* Styles for CreateInterviewPage */
+.create-interview-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+
+.create-interview-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.textarea-wrapper {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.textarea-left {
+  height: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  resize: none;
+  overflow: auto;
+}
+
+.textarea-right {
+  height: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  font-size: 16px;
+  font-family: monospace;
+  resize: none;
+  overflow: auto;
+}
+
+.resizer {
+  width: 5px;
+  background-color: #ccc;
+  cursor: col-resize;
+  position: relative;
+  z-index: 1;
+}
+
+.output-container {
+  margin-top: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  font-family: monospace;
+  font-size: 14px;
+  white-space: pre-wrap;
+  overflow-x: auto;
+}
+
+.run-button {
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
+
+.header-container {
+  display: flex;
+  align-items: center; /* Align button and title vertically */
+  justify-content: space-between; /* Push items to edges */
+  width: 100%; /* Ensure it spans the full width */
+  padding: 10px 20px; /* Add some padding */
+  box-sizing: border-box;
+}
+
+/* Style for the "Go Back" button */
+.go-back-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.go-back-button:hover {
+  background-color: #0056b3;
+}
+
+/* Match the style of the Run Code button */
+.run-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.run-button:hover {
+  background-color: #0056b3;
+}
